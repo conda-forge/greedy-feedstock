@@ -1,5 +1,5 @@
 {% set name = "greedy" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b65afb3670c0477219d4092039514a41f6084e2aaff4548617f55d9baf8cc3e7
+  sha256: 06f24b48972ac2fa60cfb5ba6f1fee97a754641c771d42390d515f04eb2f69dc
 
 build:
   noarch: python
